@@ -18,6 +18,8 @@ import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
 import pandas as pd
 
+#%% This little guy divides sections in Spyder so I can run each block individually. 
+# It may not work in other IDEs.
 
 # === File Reading ===
 we_can_merge = 'Path/to/file/wecan-mrg01-c130_merge_20180809_R4.ict'
