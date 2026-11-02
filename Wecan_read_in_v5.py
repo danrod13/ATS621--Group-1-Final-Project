@@ -149,8 +149,8 @@ def plot_aircraft_track( filepath, color_var='ALTP', vmin=None, vmax=None, scale
 
 #%%
 # To make quick adjustments: scale = zoom; 
-#                            pan_lat = moves horizontally ( -: left, +: right)
-#                            pan_lon = moves verticall    ( -: down, +: up )
+#                            pan_lat = moves vertically   ( -: down, +: up )
+#                            pan_lon = moves horizontally ( -: left, +: right)
 
-plot_aircraft_track( we_can_merge, color_var= 'ALTP', scale = 1.3   , pan_lat = -1.5, pan_lon = 1.5 )
+plot_aircraft_track( we_can_merge, color_var= 'ALTP', scale = 1.3, pan_lat = -1.4, pan_lon = 1.35 )
 
